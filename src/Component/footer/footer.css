@@ -1,0 +1,28 @@
+.fottercontact {
+  font-size: 1rem;
+  font-weight: 100;
+}
+.footericone {
+  margin-top: 2%;
+  margin-bottom: 2%;
+}
+.footericone a {
+  padding: 0px 10px;
+}
+.footericone i {
+  font-size: 35px;
+}
+.footericone i:hover {
+  color: blue !important;
+}
+
+.fs-6 a {
+  text-decoration: none;
+  color: grey;
+  cursor: pointer;
+  font-size: 18px !important;
+}
+.fs-6 a:hover {
+  cursor: pointer;
+  color: blue !important;
+}

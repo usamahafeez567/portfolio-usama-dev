@@ -1,0 +1,53 @@
+.aboutimg {
+  margin-left: 14%;
+  width: 75%;
+  height: 95%;
+  border-radius: 10px;
+  box-shadow: 0px 8px 16px 0px rgba(0, 0, 0, 0.248);
+
+  transition: transform 0.65s cubic-bezier(0.05, 0.2, 0.1, 1);
+  /* box-shadow: 0.65s cubic-bezier(0.05, 0.2, 0.1, 1); */
+}
+.aboutimg:hover {
+  transform: translateY(-10px);
+  box-shadow: 0px 8px 16px rgba(0, 0, 0, 0.41);
+}
+.aboutmecontent {
+  font-family: "Poppins", sans-serif;
+  font-weight: 200;
+  font-size: 17px;
+}
+
+/* Styles for screens smaller than 768 pixels */
+
+@media screen and (max-width: 786px) {
+  .aboutmecontent,
+  .about-title,
+  .about-text {
+    text-align: center;
+    padding: 10px 0px;
+  }
+  .about-all-section {
+    padding: 85px;
+  }
+}
+@media (max-width: 475px) {
+  .aboutmecontent,
+  .about-title,
+  .about-text {
+    text-align: center;
+  }
+  .about-all-section {
+    padding: 55px;
+  }
+}
+@media screen and (max-width: 325px) {
+  .aboutmecontent,
+  .about-title,
+  .about-text {
+    text-align: center;
+  }
+  .about-all-section {
+    padding: 40px;
+  }
+}

@@ -1,0 +1,51 @@
+.whatsapp-section-child {
+  border: none;
+  background-color: transparent;
+}
+.email-section,
+.whatsapp-section {
+  padding: 10% 20% 10% 17%;
+  border-radius: 20px;
+  background: rgba(211, 211, 211, 0.145);
+  max-width: 450px;
+  margin: 0 auto;
+  text-align: center;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+}
+
+.whticone {
+  font-size: 2.5rem;
+  color: blue;
+}
+
+.whatsapp-section:hover,
+.email-section:hover {
+  background: blue;
+}
+
+.whatsapp-section:hover :nth-child(1),
+.email-section:hover :nth-child(1) {
+  color: white;
+}
+
+.whatsapp-section:hover :nth-child(2),
+.email-section:hover :nth-child(2) {
+  color: white;
+}
+
+.email-text {
+  font-weight: 100;
+  font-size: 1.1rem;
+}
+
+.last-section {
+  margin-bottom: 7rem;
+}
+@media (max-width: 768px) {
+  .email-section,
+  .whatsapp-section {
+    padding: 8% 5%;
+  }
+}

@@ -1,0 +1,95 @@
+.nav-name {
+  font-size: 40px;
+  font-family: "Ubuntu", sans-serif;
+}
+.nav-name-dev {
+  font-size: 40px;
+  color: #0000ff;
+  font-family: "Ubuntu", sans-serif;
+}
+/* .nav-name:hover,
+.nav-name-dev:hover {
+  color: #087ea4;
+} */
+.nav-dot {
+  font-size: 40px;
+  color: #0000ff;
+  font-family: "Ubuntu", sans-serif;
+}
+@media (max-width: 425px) {
+  .nav-name {
+    font-size: 30px;
+    font-family: "Ubuntu", sans-serif;
+  }
+  .nav-name-dev {
+    font-size: 30px;
+    color: #0000ff;
+    font-family: "Ubuntu", sans-serif;
+  }
+  .nav-dot {
+    font-size: 30px;
+    color: #0000ff;
+    font-family: "Ubuntu", sans-serif;
+  }
+}
+@media (max-width: 325px) {
+  .nav-name {
+    font-size: 25px;
+    font-family: "Ubuntu", sans-serif;
+  }
+  .nav-name-dev {
+    font-size: 25px;
+    color: #0000ff;
+    font-family: "Ubuntu", sans-serif;
+  }
+  .nav-dot {
+    font-size: 25px;
+    color: #0000ff;
+    font-family: "Ubuntu", sans-serif;
+  }
+}
+@media (max-width: 576px) {
+  .navbar-brand {
+    margin-left: auto !important;
+    margin-right: auto !important;
+  }
+}
+@media (max-width: 768px) {
+  .navbar-brand {
+    margin-left: auto !important;
+    margin-right: auto !important;
+  }
+}
+.nav-item {
+  margin-left: 20px;
+  margin-right: 20px;
+  font-size: 20px;
+}
+.nav-item-contact {
+  margin-right: 40px;
+}
+.navbar-nav .nav-link.active,
+.navbar-nav .nav-link.show {
+  color: #0000ff;
+}
+.dropdown-item:hover,
+.dropdown-item.active,
+.dropdown-item:active {
+  color: var(--bs-dropdown-link-active-color);
+  text-decoration: none;
+  background-color: #0000ff;
+}
+.nav-link:focus,
+.nav-link:hover,
+.nav-link1:hover,
+.nav-link1:focus {
+  color: #0000ff;
+  font-weight: bold;
+}
+.header {
+  background: white;
+}
+.hearder-bg {
+  background: white;
+  box-shadow: 0px 8px 16px 0px rgba(0, 0, 0, 0.1);
+}
