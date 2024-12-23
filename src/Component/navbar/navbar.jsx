@@ -44,7 +44,7 @@ function Navbar() {
             <span className="navbar-toggler-icon"></span>
           </button>
           <Nav.Link
-            className="navbar-brand py-3 mx-lg-4 mx-md-4 px-lg-5 px-md-5"
+            className="navbar-brand py-1 mx-lg-4 mx-md-4 px-lg-5 px-md-5"
             href="/"
           >
             <b className="nav-name">Usama</b>

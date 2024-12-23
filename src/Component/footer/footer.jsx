@@ -1,7 +1,9 @@
 import React from "react";
 import "./footer.css";
 
-function footer() {
+function Footer() {
+  const currentYear = new Date().getFullYear();
+
   return (
     <div
       className="bg-dark text-center"
@@ -34,15 +36,15 @@ function footer() {
           rel="noreferrer"
         >
           <i
-            class="fa-brands fa-youtube fa-xl linkdinn"
+            className="fa-brands fa-youtube fa-xl linkdinn"
             style={{ color: "white" }}
           ></i>
         </a>
       </div>
       <small className="fottercontact">
         <b>
-          Copyright © 2023. All rights reserved | This template is made with{" "}
-          {"  "}
+          Copyright © {currentYear}. All rights reserved | This template is
+          made with{" "}
           <span className="fs-6" style={{ fontWeight: "600" }}>
             <a href="#home">
               <span>Usama</span>
@@ -56,4 +58,4 @@ function footer() {
   );
 }
 
-export default footer;
+export default Footer;

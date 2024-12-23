@@ -18,7 +18,7 @@ const home = () => {
           <div className="row">
             <div className="col-lg-6">
               <h1 className="h1-text-main py-3">
-                Front-End Reactjs <br />
+                MERN Stack <br />
                 Developer <span>👋🏻</span>
               </h1>
 
